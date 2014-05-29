@@ -3,9 +3,9 @@
   - yaml
   - json
 :yaml:
-  :datadir: /etc/puppet/hieradata
+  :datadir: /etc/nebops
 :json:
-  :datadir: /etc/puppet/hieradata
+  :datadir: /etc/nebops
 :hierarchy:
   - "%{::clientcert}"
   - "%{::custom_location}"
